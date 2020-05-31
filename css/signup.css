@@ -1,0 +1,321 @@
+/* =========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: Raleway & Open Sans
+    ----------------------------------------
+    Colors:
+        Moon Yellow:         #f4c613
+        Grey:                #212226
+        White Smoke:         #f4f4f4
+        White:               #fff
+        Black:               #000   
+============================================ */
+
+/* =========================================
+                html,Body
+============================================ */
+
+/*
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+
+}
+*/
+body {
+	background: url("../img/background/8.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+#home-overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+/* =========================================
+                Sign Up
+============================================ */
+
+.login {
+	width: 820px;
+	height: 420px;
+	background: transparent;
+	color: #fff;
+	top: 60%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	margin-top: 50px;
+
+}
+
+.login-img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	top: -50px;
+	position: absolute;
+	left: calc(43.5%);
+}
+
+h1 {
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+
+.login p {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+.login input {
+	width: 40%;
+	margin-bottom: 20px;
+}
+
+.login input[type="email"],
+input[type="password"],
+input[type="text"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 12px;
+
+}
+
+
+
+.login input[type="submit"] {
+	border: :none;
+	outline: none;
+	height: 40px;
+	background: transparent;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	margin-left: 225px;
+	margin-top: 40px;
+}
+
+/*
+.login input[type="submit"]:hover {
+	background: #f4c613;
+	color: #fff;
+	cursor: pointer;
+
+}
+
+.login a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+
+}
+
+.login a:hover {
+	color: #f4c613;
+}
+*/
+
+
+
+.right-signup {
+
+	margin-left: 400px;
+	margin-top: -210px;
+}
+
+.right-signup input {
+	width: 80%;
+}
+
+.left-signup {
+	margin-left: 65px;
+}
+
+/* 
+=========================================
+               |Navigation
+============================================*/
+.navbar {
+	background: #fff;
+	padding: 10px 0;
+	-webkit-box-shadow: 0 8px 6px -9px #999;
+	box-shadow: 0 8px 6px -9px #999;
+	z-index: 2;
+
+}
+
+.site-nav-wrapper {
+	padding: 0 85px;
+}
+
+/*
+.navbar-brand {
+	padding: 13px 15px;
+	font-size: 15px;
+	margin-top: 5px;
+	/*margin-right: 400px;*/
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+	font-family: "Raleway", sans-serif;
+}
+
+/* Dropdown Button */
+.dropbtn {
+	background-color: transparent;
+	color: #212226;
+	padding: 0px;
+	font-size: 18px;
+	border: none;
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+
+}
+
+.dropbtn a {
+	background-color: transparent;
+	color: #212226;
+	padding: 0px;
+	font-size: 18px;
+	border: none;
+	font-family: "Raleway", sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: #212226;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: "Raleway", sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+.dropdown .dropbtn:hover {
+
+	color: #f4c613;
+}
+
+.dropdown .dropbtn a:hover {
+	text-decoration: none;
+	color: #f4c613;
+}
+
+.dropdown-content a:hover {
+	background-color: #f4c613;
+}
+
+.nav-btn {
+	color: #212226;
+	border: 1px solid #212226;
+}
+
+.btn.nav-btn:hover,
+.nav-btn:focus {
+	color: #fff;
+	background-color: #f4c613;
+	border: 1px solid #f4c613;
+}
+
+.logo {
+	float: left;
+	/*border: 1px solid #f4c316;*/
+	height: inherit;
+	margin-left: 2em;
+	margin-top: 5px;
+
+}
+
+
+.logo :hover {
+	background: transparent;
+	text-decoration: none;
+}
+
+.logo-text {
+	margin: 9px;
+	font-family: "Raleway", sans-serif;
+	color: #212226;
+}
+
+.logo-text span {
+	color: #f4c613;
+	font-family: "Raleway", sans-serif;
+}
+
+/* =========================================
+                Buttons
+============================================ */
+.btn-general {
+	font-family: 'Raleway', sans-serif;
+	border-radius: 28px;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin: 0 6px;
+	padding: 12px 46px 12px 46px;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+}
+
+.btn-back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 3px 15px;
+	border-radius: 4px;
+	font-size: 22px;
+	display: none;
+}
