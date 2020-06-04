@@ -949,7 +949,7 @@ mysqli_close($db);
 	<script src="JS/Owl-Carousel/owl.carousel.min.js"></script>
 
 	<!-- Google Map JS -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9EdV2JfPG1Vfviw9gf_HlblIUfs7Ie2E"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key="></script>
 
 	<!--easing scroll-->
 	<script src="JS/easing/jquery.easing.1.3.js"></script>
